@@ -31,7 +31,7 @@ This project performs comprehensive unsupervised learning analysis on credit car
 - **Consensus Approach**: Combined results from both methods
 - **Contamination Rate**: 2% (0.02)
 
-## 📈 Results
+##  Results
 
 ### Clustering Performance
 | Metric | K-means | GMM |
