@@ -79,12 +79,12 @@ This project performs comprehensive unsupervised learning analysis on credit car
 
 #### Top 3 Most Anomalous Instances
 
-** Anomaly #1**
+**Anomaly #1**
 - Payments: $23,018.58 (+1,228.1% above mean)
 - Purchases: $22,009.92 (+2,094.0% above mean) 
 - Balance: $19,043.14 (+1,117.2% above mean)
 
-** Anomaly #2**
+**Anomaly #2**
 - Purchases: $41,050.40 (+3,991.9% above mean)
 - One-off Purchases: $40,624.06 (+6,757.1% above mean)
 - Payments: $36,066.75 (+1,981.0% above mean)
@@ -112,7 +112,7 @@ This project performs comprehensive unsupervised learning analysis on credit car
 - **Cluster 2**: Monitor for cash advance risks and offer purchase incentives
 - **Anomalies**: Investigate for potential fraud or data quality issues
 
-## 📊 Files Generated
+## Files Generated
 - `cc_data_kmeans_clusters.csv` - Data with K-means cluster assignments
 - `cc_data_gmm_clusters.csv` - Data with GMM cluster assignments
 - `anomaly_results.csv` - Anomaly detection results
