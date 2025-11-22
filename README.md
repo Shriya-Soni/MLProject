@@ -1,20 +1,20 @@
 # Unsupervised Learning Analysis - Credit Card Data
 
-## 📊 Project Overview
+##  Project Overview
 This project performs comprehensive unsupervised learning analysis on credit card customer data, including clustering and anomaly detection to identify customer segments and unusual patterns.
 
-## 🎯 Key Objectives
+##  Key Objectives
 - Perform customer segmentation using clustering algorithms
 - Identify optimal number of clusters
 - Detect anomalous transactions and customer behaviors
 - Provide actionable insights for business strategy
 
-## 📁 Dataset Information
+##  Dataset Information
 - **Original Dataset**: 8,950 customers × 18 features
 - **Cleaned Dataset**: 8,950 customers × 17 features (after preprocessing)
 - **Missing Values Handled**: 314 values imputed using median strategy
 
-## 🔧 Methodology
+##  Methodology
 
 ### Data Preprocessing
 - Removed customer identifier (`CUST_ID`)
@@ -41,17 +41,17 @@ This project performs comprehensive unsupervised learning analysis on credit car
 
 ### K-means Cluster Profiles
 
-#### 🟣 Cluster 0 - High-Value Active Users (1,275 customers)
+#### Cluster 0 - High-Value Active Users (1,275 customers)
 - **Characteristics**: Extremely high purchase transactions
 - **Behavior**: Frequent and high-value purchasers
 - **Business Implication**: Premium customer segment with high revenue potential
 
-#### 🟢 Cluster 1 - Inactive/Light Users (6,114 customers)
+#### Cluster 1 - Inactive/Light Users (6,114 customers)
 - **Characteristics**: Low balance, low credit limit, infrequent cash advances
 - **Behavior**: Minimal card usage and transactions
 - **Business Implication**: Opportunity for engagement and activation campaigns
 
-#### 🔴 Cluster 2 - High Balance, Low Spenders (1,561 customers)
+#### Cluster 2 - High Balance, Low Spenders (1,561 customers)
 - **Characteristics**: High cash advance frequency and amounts
 - **Behavior**: Prefer cash advances over purchases
 - **Business Implication**: Potential risk segment requiring monitoring
@@ -61,7 +61,7 @@ This project performs comprehensive unsupervised learning analysis on credit car
 - **Cluster 1**: High Balance, Low Spenders (2,934 customers)  
 - **Cluster 2**: Average Users (3,410 customers)
 
-### 🚨 Anomaly Detection Results
+### Anomaly Detection Results
 
 #### Detection Summary
 - **Isolation Forest**: 179 anomalies detected
@@ -79,22 +79,22 @@ This project performs comprehensive unsupervised learning analysis on credit car
 
 #### Top 3 Most Anomalous Instances
 
-**🔴 Anomaly #1**
+** Anomaly #1**
 - Payments: $23,018.58 (+1,228.1% above mean)
 - Purchases: $22,009.92 (+2,094.0% above mean) 
 - Balance: $19,043.14 (+1,117.2% above mean)
 
-**🔴 Anomaly #2**
+** Anomaly #2**
 - Purchases: $41,050.40 (+3,991.9% above mean)
 - One-off Purchases: $40,624.06 (+6,757.1% above mean)
 - Payments: $36,066.75 (+1,981.0% above mean)
 
-**🔴 Anomaly #3**
+**Anomaly #3**
 - Credit Limit: $20,000.00 (+345.0% above mean)
 - Balance: $13,673.08 (+774.0% above mean)
 - Payments: $11,717.31 (+576.1% above mean)
 
-## 💡 Key Insights
+##  Key Insights
 
 ### Clustering Insights
 1. **Clear Customer Segmentation**: Three distinct customer groups identified
@@ -122,7 +122,7 @@ This project performs comprehensive unsupervised learning analysis on credit car
 - `cluster_stability.png` - Cluster stability analysis
 - `anomaly_detection.png` - Anomaly visualization
 
-## 🎯 Conclusion
+##  Conclusion
 The analysis successfully identified three meaningful customer segments with distinct behavioral patterns and detected significant anomalies showing extreme financial behaviors. The K-means algorithm demonstrated superior performance for this dataset, and the high cluster stability ensures reliable results for business decision-making.
 
 **Recommendations**:
